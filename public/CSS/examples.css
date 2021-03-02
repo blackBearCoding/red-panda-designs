@@ -30,13 +30,26 @@ a {
 }
 
 body {
+  align-items: center;
   background-image: linear-gradient(rgb(32, 32, 32), rgb(61, 32, 68), rgb(51, 23, 146), rgb(104, 157, 236));
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+footer {
+  align-items: center;
+  background-color: #f3933c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5em;
+  width: 100%;
+  z-index: 1;
 }
 
 html {
@@ -112,7 +125,7 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-top: 1em;
-    width: 100%;
+    width: 80%;
 }
 
 .main-container {
@@ -179,6 +192,12 @@ nav a {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+footer p {
+  color: rgb(32, 32, 32);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 /*----------HOVER----------*/

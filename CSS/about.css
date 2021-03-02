@@ -30,15 +30,27 @@ a {
 }
 
 body {
+  align-items: center;
   background-image: linear-gradient(rgb(32, 32, 32), rgb(61, 32, 68), rgb(51, 23, 146), rgb(104, 157, 236));
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   margin: 0;
   min-height: 100vh;
   padding: 0;
   position: relative;
   overflow-x: hidden;
+}
+
+footer {
+  align-items: center;
+  background-color: #f3933c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5em;
+  width: 100%;
+  z-index: 1;
 }
 
 html {
@@ -107,7 +119,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  margin-top: 11.25em;
+  margin-top: 11.5em;
   padding: 0em 1em 1em 1em;
   text-align: center;
   width: 40em;
@@ -140,6 +152,12 @@ nav a {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+footer p {
+  color: rgb(32, 32, 32);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 .main-content p {

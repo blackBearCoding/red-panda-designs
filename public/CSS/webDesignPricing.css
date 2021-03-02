@@ -30,16 +30,31 @@ a {
 }
 
 body {
+  align-items: center;
   background-image: linear-gradient(rgb(32, 32, 32), rgb(61, 32, 68), rgb(51, 23, 146), rgb(104, 157, 236));
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   height: 100%;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0;
   min-height: 100vh;
   padding: 0;
   position: relative;
   overflow: hidden;
+}
+
+footer {
+  align-items: center;
+  background-color: #f3933c;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  height: 5em;
+  width: 100%;
+  z-index: 1;
 }
 
 html {
@@ -161,6 +176,12 @@ nav a {
 
 .main-content section div:nth-child(1) {
     width: 45%;
+}
+
+footer p {
+  color: rgb(32, 32, 32);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 /*----------HOVER----------*/
