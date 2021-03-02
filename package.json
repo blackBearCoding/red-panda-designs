@@ -1,15 +1,22 @@
 {
   "name": "red-panda-designs",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "browserify": "^17.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackBearCoding/red-panda-designs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blackBearCoding/red-panda-designs/issues"
+  },
+  "homepage": "https://github.com/blackBearCoding/red-panda-designs#readme"
 }
