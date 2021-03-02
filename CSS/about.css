@@ -154,10 +154,14 @@ nav a {
   justify-content: center;
 }
 
-footer p {
+footer p, footer a {
   color: rgb(32, 32, 32);
   font-family: "Poppins", sans-serif;
   margin: 0;
+}
+
+footer a {
+  font-size: 1em;
 }
 
 .main-content p {
@@ -169,9 +173,14 @@ footer p {
 
 /*----------HOVER----------*/
 
-a:hover {
+.nav-links a:hover {
   color: #f3933c;
   cursor: pointer;
+}
+
+footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /*----------MEDIA QUERIES----------*/
