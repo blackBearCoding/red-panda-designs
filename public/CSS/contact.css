@@ -1,0 +1,254 @@
+/*----------IMPORTS----------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+
+/*----------ANIMATIONS----------*/
+
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/*----------GENERAL----------*/
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+body {
+  background-image: linear-gradient(
+    rgb(32, 32, 32),
+    rgb(61, 32, 68),
+    rgb(51, 23, 146),
+    rgb(104, 157, 236)
+  );
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+form {
+  width: 100%;
+}
+
+html {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3em;
+  margin: 0.5em 0em 0em 0em;
+}
+
+h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  margin: 0;
+}
+
+input {
+  border-radius: 10px;
+  flex: 2;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+label {
+  color: white;
+  flex: 0.4;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+  margin-right: 1em;
+  text-align: end;
+}
+
+nav {
+  align-items: center;
+  background-color: rgba(32, 32, 32, 0.609);
+  display: flex;
+  flex-shrink: 2;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+select {
+  border-radius: 10px;
+  flex: 2;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+}
+
+textarea {
+  border-radius: 10px;
+  flex: 2;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  height: 8em;
+  padding: 0.25em;
+}
+
+/*----------SPECIFICS----------*/
+
+.background {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+.button {
+  background-color: #f3933c;
+  border: none;
+  color: white;
+  flex: 0.5;
+  font-family: "Bebas Neue", cursive;
+  transition: 0.2s;
+}
+
+.dots {
+  animation: float 3s ease-in-out infinite;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.main-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.main-content {
+  align-items: center;
+  background-image: linear-gradient(
+    rgba(32, 32, 32, 0.609),
+    rgba(32, 32, 32, 0)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 11.25em;
+  padding: 0em 1em 1em 1em;
+  text-align: center;
+  width: fit-content;
+  z-index: 1;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  height: 4em;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.nav-logo {
+  margin: 0.75em;
+}
+
+.orange {
+  color: #f3933c;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0em;
+  width: 100%;
+}
+
+#error {
+  color: white;
+  flex: 0.75;
+  font-family: "Poppins", sans-serif;
+}
+
+nav a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*----------HOVER----------*/
+
+a:hover {
+  color: #f3933c;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #f3933c;
+  cursor: pointer;
+}
+
+/*----------FOCUS----------*/
+
+input:focus,
+textarea:focus {
+  border: 2px #f3933c solid;
+  outline: none;
+  padding: 0.25em;
+}
+
+/*----------MEDIA QUERIES----------*/
+
+@media only screen and (max-width: 411px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  nav a {
+    width: 4em;
+  }
+
+  .main-content {
+    margin-top: 6em;
+  }
+
+  .nav-logo {
+    width: 4em;
+  }
+}
+
+@media only screen and (max-width: 373px) {
+
+  textarea {
+    width: 17em;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
