@@ -45,11 +45,12 @@ body {
 
 footer {
   align-items: center;
+  bottom: -0.25em;
   background-color: #f3933c;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 5em;
+  position: relative;
   width: 100%;
   z-index: 1;
 }
@@ -129,7 +130,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  margin-top: 11.5em;
+  margin-top: 11.25em;
   padding: 0em 1em 1em 1em;
   text-align: center;
   width: fit-content;
