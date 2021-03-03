@@ -209,9 +209,8 @@ a:hover {
 }
 
 footer a:hover {
-  color: black;
+  color: white;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 /*----------MEDIA QUERIES----------*/
