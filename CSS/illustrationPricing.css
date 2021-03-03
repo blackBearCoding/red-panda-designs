@@ -182,6 +182,11 @@ nav a {
   margin: 1em 0em;
 }
 
+footer div {
+  text-align: center;
+  margin: 0 0.5em;
+}
+
 footer p, footer a {
   color: rgb(32, 32, 32);
   font-family: "Poppins", sans-serif;
@@ -190,6 +195,11 @@ footer p, footer a {
 
 footer a {
   font-size: 1em;
+}
+
+footer i {
+  font-size: 2.5em;
+  margin: 0.25em;
 }
 
 /*----------HOVER----------*/

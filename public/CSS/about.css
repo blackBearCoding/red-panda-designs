@@ -46,7 +46,6 @@ footer {
   align-items: center;
   background-color: #f3933c;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 5em;
   width: 100%;
@@ -154,6 +153,11 @@ nav a {
   justify-content: center;
 }
 
+footer div {
+  text-align: center;
+  margin: 0 0.5em;
+}
+
 footer p, footer a {
   color: rgb(32, 32, 32);
   font-family: "Poppins", sans-serif;
@@ -162,6 +166,11 @@ footer p, footer a {
 
 footer a {
   font-size: 1em;
+}
+
+footer i {
+  font-size: 2.5em;
+  margin: 0.25em;
 }
 
 .main-content p {
@@ -179,8 +188,8 @@ footer a {
 }
 
 footer a:hover {
+  color: white;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 /*----------MEDIA QUERIES----------*/
