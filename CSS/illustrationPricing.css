@@ -245,3 +245,21 @@ footer a:hover {
     width: 15em;
   }
 }
+
+@media only screen and (max-width: 622px) {
+  footer div {
+    font-size: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  footer div {
+    font-size: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 329px) {
+  footer div {
+    font-size: 0.25em;
+  }
+}
