@@ -1,7 +1,7 @@
 /*----------IMPORTS----------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /*----------ANIMATIONS----------*/
 
@@ -64,7 +64,7 @@ h1 {
 
 h2, li {
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2em;
   margin: 1em;
 }
@@ -183,7 +183,7 @@ ul {
 .main-content p {
   border-radius: 1em;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: start;
 }
 
@@ -200,7 +200,7 @@ footer div {
 
 footer p, footer a {
   color: rgb(32, 32, 32);
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 

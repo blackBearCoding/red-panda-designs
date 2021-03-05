@@ -1,7 +1,7 @@
 /*----------IMPORTS----------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /*----------ANIMATIONS----------*/
 
@@ -76,7 +76,7 @@ h2 {
 
 li {
     color: white;
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -184,7 +184,7 @@ footer div {
 
 footer p, footer a {
   color: rgb(32, 32, 32);
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
