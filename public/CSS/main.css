@@ -253,19 +253,19 @@ footer a:hover {
   }
 }
 
-@media only screen and (max-width: 622px) {
+@media only screen and (max-width: 755px) {
   footer div {
     font-size: 0.75em;
   }
 }
 
-@media only screen and (max-width: 465px) {
+@media only screen and (max-width: 572px) {
   footer div {
     font-size: 0.5em;
   }
 }
 
-@media only screen and (max-width: 329px) {
+@media only screen and (max-width: 402px) {
   footer div {
     font-size: 0.25em;
   }
